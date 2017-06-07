@@ -1,12 +1,5 @@
-//
-//  ViewController.swift
-//  InstagramLogin-Swift
-//
-//  Created by Aman Aggarwal on 2/7/17.
-//  Copyright © 2017 ClickApps. All rights reserved.
-//
-
 import UIKit
+
 
 class ViewController: UIViewController {
 

@@ -12,6 +12,13 @@
 		07D4905C1E49A4D80034D00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D4905A1E49A4D80034D00B /* Main.storyboard */; };
 		07D4905E1E49A4D80034D00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D4905D1E49A4D80034D00B /* Assets.xcassets */; };
 		07D490611E49A4D80034D00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D4905F1E49A4D80034D00B /* LaunchScreen.storyboard */; };
+		07D490691E49A5110034D00B /* InstagramLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D490681E49A5110034D00B /* InstagramLoginVC.swift */; };
+		07D4906B1E49A6320034D00B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4906A1E49A6320034D00B /* Constant.swift */; };
+		599951DC1EE48F9A0038E39C /* savedTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599951DB1EE48F9A0038E39C /* savedTags.swift */; };
+		599951DE1EE491650038E39C /* SavedTagsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599951DD1EE491650038E39C /* SavedTagsVC.swift */; };
+		599951E01EE49F460038E39C /* tagDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599951DF1EE49F460038E39C /* tagDB.swift */; };
+		599951E31EE62AD70038E39C /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599951E21EE62AD70038E39C /* data.swift */; };
+		967CED187D14C7DEA44A43F1 /* Pods_InstagramLogin_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7A81D9C51DDF3ADA6E20F2 /* Pods_InstagramLogin_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,15 @@
 		07D4905D1E49A4D80034D00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07D490601E49A4D80034D00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07D490621E49A4D80034D00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D490681E49A5110034D00B /* InstagramLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramLoginVC.swift; sourceTree = "<group>"; };
+		07D4906A1E49A6320034D00B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		080005E73332633D1095830D /* Pods-InstagramLogin-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLogin-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramLogin-Swift/Pods-InstagramLogin-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		0DC85DBD5E682F648DEEE3D6 /* Pods-InstagramLogin-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLogin-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramLogin-Swift/Pods-InstagramLogin-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		599951DB1EE48F9A0038E39C /* savedTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = savedTags.swift; sourceTree = "<group>"; };
+		599951DD1EE491650038E39C /* SavedTagsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedTagsVC.swift; sourceTree = "<group>"; };
+		599951DF1EE49F460038E39C /* tagDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tagDB.swift; sourceTree = "<group>"; };
+		599951E21EE62AD70038E39C /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		CB7A81D9C51DDF3ADA6E20F2 /* Pods_InstagramLogin_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramLogin_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967CED187D14C7DEA44A43F1 /* Pods_InstagramLogin_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				07D490551E49A4D80034D00B /* InstagramLogin-Swift */,
 				07D490541E49A4D80034D00B /* Products */,
+				ED35172FA532A9CF2CB1D9DC /* Pods */,
+				BD9ED8F02918A73139D1E20C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +75,35 @@
 			children = (
 				07D490561E49A4D80034D00B /* AppDelegate.swift */,
 				07D490581E49A4D80034D00B /* ViewController.swift */,
+				07D490681E49A5110034D00B /* InstagramLoginVC.swift */,
+				07D4906A1E49A6320034D00B /* Constant.swift */,
+				599951DB1EE48F9A0038E39C /* savedTags.swift */,
+				599951DF1EE49F460038E39C /* tagDB.swift */,
+				599951E21EE62AD70038E39C /* data.swift */,
+				599951DD1EE491650038E39C /* SavedTagsVC.swift */,
 				07D4905A1E49A4D80034D00B /* Main.storyboard */,
 				07D4905D1E49A4D80034D00B /* Assets.xcassets */,
 				07D4905F1E49A4D80034D00B /* LaunchScreen.storyboard */,
 				07D490621E49A4D80034D00B /* Info.plist */,
 			);
 			path = "InstagramLogin-Swift";
+			sourceTree = "<group>";
+		};
+		BD9ED8F02918A73139D1E20C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB7A81D9C51DDF3ADA6E20F2 /* Pods_InstagramLogin_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED35172FA532A9CF2CB1D9DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				080005E73332633D1095830D /* Pods-InstagramLogin-Swift.debug.xcconfig */,
+				0DC85DBD5E682F648DEEE3D6 /* Pods-InstagramLogin-Swift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07D490651E49A4D80034D00B /* Build configuration list for PBXNativeTarget "InstagramLogin-Swift" */;
 			buildPhases = (
+				A727547A47011B809FF1238E /* [CP] Check Pods Manifest.lock */,
 				07D4904F1E49A4D80034D00B /* Sources */,
 				07D490501E49A4D80034D00B /* Frameworks */,
 				07D490511E49A4D80034D00B /* Resources */,
+				8A945E53C78A654130D58059 /* [CP] Embed Pods Frameworks */,
+				8966780ABEF90308D6847EEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +176,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8966780ABEF90308D6847EEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramLogin-Swift/Pods-InstagramLogin-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A945E53C78A654130D58059 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramLogin-Swift/Pods-InstagramLogin-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A727547A47011B809FF1238E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07D4904F1E49A4D80034D00B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				07D490591E49A4D80034D00B /* ViewController.swift in Sources */,
+				599951DC1EE48F9A0038E39C /* savedTags.swift in Sources */,
+				599951E01EE49F460038E39C /* tagDB.swift in Sources */,
 				07D490571E49A4D80034D00B /* AppDelegate.swift in Sources */,
+				07D490691E49A5110034D00B /* InstagramLoginVC.swift in Sources */,
+				07D4906B1E49A6320034D00B /* Constant.swift in Sources */,
+				599951DE1EE491650038E39C /* SavedTagsVC.swift in Sources */,
+				599951E31EE62AD70038E39C /* data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,25 +355,31 @@
 		};
 		07D490661E49A4D80034D00B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080005E73332633D1095830D /* Pods-InstagramLogin-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "InstagramLogin-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ClickApps.InstagramLogin-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		07D490671E49A4D80034D00B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC85DBD5E682F648DEEE3D6 /* Pods-InstagramLogin-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "InstagramLogin-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ClickApps.InstagramLogin-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -297,6 +402,7 @@
 				07D490671E49A4D80034D00B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

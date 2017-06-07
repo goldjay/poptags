@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstagramLogin-Swift/InstagramLoginVC.swift"
+            timestampString = "518571252.112665"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "handleAuth(authToken:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramLogin_Swift.InstagramLoginVC.handleAuth (authToken : Swift.String) -&gt; ()"
+                  moduleName = "InstagramLogin-Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaysteingold/Desktop/InstagramLogin-Swift/InstagramLogin-Swift/InstagramLoginVC.swift"
+                  timestampString = "518412496.45787"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "571">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramLogin_Swift.InstagramLoginVC.(handleAuth (authToken : Swift.String) -&gt; ()).(closure #1)"
+                  moduleName = "InstagramLogin-Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaysteingold/Desktop/InstagramLogin-Swift/InstagramLogin-Swift/InstagramLoginVC.swift"
+                  timestampString = "518412496.45975"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
